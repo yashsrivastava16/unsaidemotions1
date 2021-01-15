@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="./style.css">
+        <!-- material-icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+
+
+    <title>HomePage</title>
+</head>
+<body>
+<!-- NavBar -->
+<section>
+    <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a href="https://www.instagram.com/unsaidemotions1" class="brand-logo">&nbsp;<span id="logo">Unsaid Emotions</span></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#myabout">About US</a></li>
+            <li><a href="#conditions">Terms & Conditions</a></li>
+            <li><a href="404.html">Support US</a></li>
+          </ul>
+        </div>
+    </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#myabout">About US</a></li>
+        <li><a href="#conditions">Terms & Conditions</a></li>
+        <li><a href="404.html">Support US</a></li>
+      </ul>
+
+</section>    
+
+
+
+
+<!-- aboutus -->
+
+
+<section id="aboutus">
+    <img src="./images/Unsaid Emotions .svg" alt="" srcset="" class="img">
+</section>
+
+<!-- <div class="collab">
+
+</div> -->
+
+<div class="aboutus" id="myabout">
+  <div class="poster">
+  <a href="https://www.instagram.com/unsaidemotions1">
+      <img src="./images/WhatsApp Image 2021-01-05 at 2.21.57 PM.jpeg" id="logo-pic"> 
+  </a>
+  </div><br>
+  <div class="about">
+    <p id="testimonal">
+      “What makes you a poet is a gift for language, an ability to see
+into the heart of things, and an ability to deal with important
+unconscious material. When all these things come together, you’re
+a poet. But there isn’t one little gimmick that makes you a poet.
+There isn’t any formula for it.”
+
+    </p>
+  </div>
+</div>
+
+<!-- 
+collabe -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+terms and Conditions and form -->
+
+<div class="outbox" id="conditions">
+    
+      <div class="terms">
+
+        <img src="./images/Rules2.svg" alt="" class="rules">  
+      
+      </div>
+      <div class="form">
+        <form name="myForm" >
+          <h5>Your Entry<i class="material-icons">expand_moreexpand_more</i></h5>
+          <input type="text"  name="name" placeholder="Full Name" id="Full_Name"  required >
+          <input type="text"  name="insta" placeholder="Instagram ID" id="Instagram_ID"  required>
+          <input type="email"  name="email" placeholder="Your Email ID" id="email"  required>
+          <input type="text"  name="quote" placeholder="Your Quote" id="Your_Quote"  required>
+          <input type="text"  name="" placeholder="Any Sugesstion!!" id="Sugesstion" required>
+          <!-- <input type="submit" value="Submit" id="formbutton" onclick="submitform();"> -->
+        </form>
+       <button onclick="submitform();" id="formbutton">submit</button>
+       <p id="note">*Please refresh the page to reload submittions and submit button</p>
+       <div id="tottalsubmitions">
+
+       </div>
+      </div>
+
+ <button id="admin">Admin Section </button>
+        
+
+</div>
+
+
+
+
+<!-- ourteam -->
+<div class="team">
+</div>
+<div class="contact">
+
+</div>
+
+<!-- popup box -->
+
+<div class="popup">
+  <h1 class="popupkey" align="center">
+      Enter yout secret key!
+  </h1>
+  <div class="secret">
+    <div class="input-field col s6">
+      <input id="Secret_key" type="password" class="validate" required>
+      <label for="Secret_key">Enter you secret key</label>
+    </div>
+  </div>
+  <button id="submit">Submit</button>
+</div>
+
+
+
+
+
+
+
+
+<!-- mesage -->
+
+<div class="message" id="adminarea">
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
+<!--
+  my js
+-->
+<script src="./main.js"></script>
+
+</html>

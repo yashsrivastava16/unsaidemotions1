@@ -1,0 +1,380 @@
+
+.about{
+    height: 400px;
+    width: 950px;
+    margin-left: 10%;
+    float: left;
+    background-color:#ffdcba;
+    border-radius:10px 140px;
+}
+.aboutus{
+    display: flex;
+    margin-top: 2%;
+}
+.poster{
+    height: 00px;
+    width: 500px;
+    margin-top: 1%;
+    margin-left: 4%;
+    background-color:rgb(166, 206, 56); 
+}
+.img{
+    width:100%;
+    margin-top:70px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    /* margin-left: 18% */
+
+
+}
+#testimonal{
+    font-family: 'Redressed', cursive;
+    font-size: 30px;
+    margin: 10%;
+}
+#logo-pic{
+    width:100%;
+}
+.nav-wrapper{
+    background-color:#0f1421;
+}
+
+.nav-fixed{
+    position: fixed
+}
+
+
+
+
+
+.outbox{
+    height: 690px;
+    /* background-color:blue; */
+    display: flex;
+    margin-top: 2%;
+}
+.terms{
+height: 700px;
+width: 50%;
+float: left;
+/* background-color:green; */
+}
+.form{
+
+    height: 570px;
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 15%;
+    float: left;
+     /* border: 5px #000000 solid;
+     background-color:#cfa3a0;   */
+}
+
+::placeholder{
+    /* background-color: blue;
+     */
+     color: #868f94;
+}
+
+.contact{
+    height: 650px;  
+    margin-top: 1%;
+    background-image: url("./images/Blue\ Green\ Babysitting\ Service\ Business_Advertising\ Website.svg");
+    
+}
+
+.rules{
+    height: 600px;
+    width:100%;
+    margin-top: 5%;
+    border-radius: 50px;
+    
+}
+
+
+.collab{
+    height: 700px;
+    margin-top:3%;
+    background-color: rgb(252, 92, 92);
+}
+
+.team{
+    height: 550px;
+    margin-top:3%;
+    background-color: rgb(252, 92, 92); 
+    background-image: url("./images/1.svg");
+    background-position: 2%;
+    background-repeat: no-repeat;
+}
+
+
+#admin{
+    margin-top:610px;
+    width: 500px;
+    height: 35px;
+    background-color:#082a44;
+    color: wheat;
+    border-radius: 50px;
+    /* margin-right: 2%; */
+}
+
+
+.secret{
+    margin-left: 2%;
+}
+
+#formbutton{
+    width: 100px;
+    height: 35px;
+    background-color:#dbd79b;
+    color: rgb(114, 112, 109);
+    border-radius: 50px;
+    /* margin-left: 15%;   */
+}
+
+.popup{
+    height: 300px;
+    width: 700px;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 50px;
+    background-color:#0f1421;
+
+
+}
+.popupkey{
+    font-family: 'Redressed', cursive;
+    font-size: 50px;
+    color:#ffdcba;
+    padding: 5%;
+}
+
+
+#submit{
+    width: 500px;
+    height: 35px;
+    background-color:#ffdcba;
+    color: #0f1421;
+    border-radius: 50px;
+    margin-left: 15%;  
+}
+
+
+
+.message{
+    height: 500px;
+    /* background-color: rgb(228, 19, 19); */
+    padding: 1%;
+    display: flex-box;
+    /* font-size: 30px; */
+}
+
+.msgchild{
+    height: 350px;
+    width: 300px;
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    padding: 2%;
+    border-style: dashed;
+    border-radius: 20px;
+    background-color:rgba(233, 169, 126, 0.836);
+
+}
+
+
+
+
+
+
+#tottalsubmitions{
+    height: 50px;
+    width: 400px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 3%;
+    font-size: 20px;
+    font-family: 'Redressed', cursive;
+    margin-top: 25%;
+    /* background-color: rgb(216, 100, 100); */
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .nav-wrapper{
+        width:100%;
+    }
+    #logo{
+        font-size: 20px;
+    }
+    
+    .img{
+        width:100%;
+       
+    }
+   
+    #logo-pic{
+        width: 00px;
+    }
+    .about{
+        height: 300px;
+        width:9700px;
+        margin-right:90px;
+        margin-top: 5%;
+        background-color:rgba(233, 169, 126, 0.836);
+        border-radius:20px 20px;
+    }
+    .outbox{
+        height: 500px;
+        /* margin-top: 1%; */
+    }
+    .terms{
+        height: 300px;
+    }
+    .popup{
+        height: 200px;
+        width: 400px;
+        /* margin-top: 5%; */
+        /* margin-right: 90%;
+         */
+         margin-left: 2%;
+        border-radius: 50px;
+        background-color:#0f1421;
+    
+    }
+    .popupkey{
+        font-family: 'Redressed', cursive;
+        font-size: 20px;
+        color:#ffdcba;
+        padding: 5%;
+    }
+
+    #submit{
+        width: 300px;
+        height: 35px;
+        background-color:#ffdcba;
+        color: #0f1421;
+        border-radius: 50px;
+    }
+    .message{
+        height: 1500px;
+        padding: 1%;
+        display: flex-box;
+     
+    }
+    
+
+    .msgchild{
+        height: 250px;
+        width: 190px;
+        margin-top: 5%;
+        margin-left: 2%;
+        float: left;
+        padding: 2%;
+        border-style: dashed;
+        border-radius: 20px;
+        background-color:rgba(233, 169, 126, 0.836);
+    
+    }
+
+    #admin{
+        margin-top:490px;
+        width: 200px;
+        height: 35px;
+        font-size:5px;
+        background-color:#082a44;
+        color: wheat;
+        border-radius: 50px;
+        /* margin-right: 2%; */
+    }
+
+
+
+    .rules{
+        height: 500px;
+        width: 200px;
+        margin-top: 0%;
+        border-radius: 50px;
+        
+    }
+
+
+
+    .form{
+
+        height: 400px;
+        width: 40%;
+        margin-top: 30%;
+        margin-left: 5%;
+        float: left;
+        /* background-color:rgb(179, 34, 154); */
+    }
+    
+    #tottalsubmitions{
+        height: 50px;
+        width: 200px;
+        border-radius: 15px 15px 15px 15px;
+        /* padding: 3%; */
+        font-size: 16px;
+        font-family: 'Redressed', cursive;
+        margin-top: 13%;
+        /* background-color: rgb(216, 100, 100); */
+    }
+
+
+    #testimonal{
+        font-family: 'Redressed', cursive;
+        font-size: 15px;
+        margin: 10%;
+    }
+
+
+    .team{
+        margin-top:15%;
+        background-color: rgb(252, 92, 92); 
+        background-image: url("./images/teammob\ \(1\).svg");
+        background-position:auto;
+        background-repeat: no-repeat;
+    }
+    .contact{
+        /* height: 650px;   */
+        margin-top: 1%;
+        background-image: url("./images/contentmob\ \(1\).svg");
+        
+    }
+    /* .about{
+        height: 200px;
+        width: 250px;
+        margin-left: 5%; */
+        /* float:; */
+        /* background-color:rgba(233, 169, 126, 0.836);
+        border-radius:10px 80px;
+    }
+    .poster{
+        height: 00px;
+        width: 250px;
+        margin-top: 7%;
+        background-color:rgb(166, 206, 56); 
+    } */
+    /* .aboutus{ */
+        /* display: flex; */
+        /* margin-top: 10%; */
+        /* background-color: black; */
+ 
+    /* #testimonal{
+        font-family: 'Redressed', cursive;
+        font-size: 10px;
+        /* margin: 10%; */
+        /* margin-top: 20%;
+    }  */
+
+ }
