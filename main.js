@@ -79,7 +79,7 @@ function errData(err){
             
         $("#submit").click(function(){
             Hash_key=$("#Secret_key").val();
-            if(Hash_key=="*&^#$%@#"){
+            if(Hash_key){
                 $('.message').show();
                 $('.popup').toggle();
 
